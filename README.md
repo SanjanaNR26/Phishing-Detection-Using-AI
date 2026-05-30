@@ -14,7 +14,7 @@ phishing_detector/
 │   ├── evaluate.py             # Accuracy / precision / recall / ROC / confusion
 │   ├── baselines.py            # RF, SVM, LogReg, NB comparison
 │   ├── explain.py              # SHAP explanations
-│   ├── Command-line.py         # Command-line detector
+│   ├── Command_line.py         # Command-line detector
 │   └── app.py                  # Flask web dashboard + REST API
 ├── templates                   # Dashboard UI
 ├── data                        # Place PhishTank/UCI/OpenPhish CSVs here
@@ -38,7 +38,7 @@ python src/evaluate.py
 python src/baselines.py
 
 # 3. Command-line inference
-python src/Command-line.py "http://paypa1-secure-login.com/verify"
+python src/Command_line.py "http://paypa1-secure-login.com/verify"
 
 # 4. Web dashboard
 python src/app.py        # http://localhost:5000
