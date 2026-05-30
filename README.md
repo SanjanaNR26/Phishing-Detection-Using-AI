@@ -51,3 +51,6 @@ python src/app.py        # http://localhost:5000
 - ISCX-URL-2016
 
 CSV format expected: `url,label` (label: 1 = phishing, 0 = legitimate).
+
+
+<img width="1919" height="1017" alt="Screenshot 2026-05-30 135405" src="https://github.com/user-attachments/assets/4549880c-96ae-43fa-8a25-76838a5f6d10" />
