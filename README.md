@@ -37,7 +37,7 @@ python src/train.py --data data/urls.csv --epochs 50
 python src/evaluate.py
 python src/baselines.py
 
-# 3. CLI inference
+# 3. Command-line inference
 python src/Command-line.py "http://paypa1-secure-login.com/verify"
 
 # 4. Web dashboard
