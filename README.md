@@ -14,11 +14,11 @@ phishing_detector/
 │   ├── evaluate.py             # Accuracy / precision / recall / ROC / confusion
 │   ├── baselines.py            # RF, SVM, LogReg, NB comparison
 │   ├── explain.py              # SHAP explanations
-│   ├── cli.py                  # Command-line detector
+│   ├── Command-line.py         # Command-line detector
 │   └── app.py                  # Flask web dashboard + REST API
-├── templates/index.html        # Dashboard UI
-├── data/                       # Place PhishTank/UCI/OpenPhish CSVs here
-├── models/                     # Saved .keras model + scaler.pkl
+├── templates                   # Dashboard UI
+├── data                        # Place PhishTank/UCI/OpenPhish CSVs here
+├── models                      # Saved .keras model + scaler.pkl
 └── requirements.txt
 ```
 
@@ -38,7 +38,7 @@ python src/evaluate.py
 python src/baselines.py
 
 # 3. CLI inference
-python src/cli.py "http://paypa1-secure-login.com/verify"
+python src/Command-line.py "http://paypa1-secure-login.com/verify"
 
 # 4. Web dashboard
 python src/app.py        # http://localhost:5000
