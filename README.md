@@ -53,4 +53,20 @@ python src/app.py        # http://localhost:5000
 CSV format expected: `url,label` (label: 1 = phishing, 0 = legitimate).
 
 
-<img width="1919" height="1017" alt="Screenshot 2026-05-30 135405" src="https://github.com/user-attachments/assets/4549880c-96ae-43fa-8a25-76838a5f6d10" />
+## Requirements
+```bash
+tensorflow==2.12.0
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.4
+nltk==3.8.1
+shap==0.44.0
+flask==2.3.3
+matplotlib==3.8.2
+seaborn==0.13.0
+imbalanced-learn==0.11.0
+joblib==1.3.2
+python-whois==0.8.0
+tldextract==5.1.1
+requests==2.31.0
+```
